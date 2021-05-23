@@ -14,9 +14,9 @@ void main() {
          child: Container(
              child:Row(
                children: [
-                 Container(height: 30.0,  width: 200.0,  color: Colors.yellow,
-               child:Row(
-                 mainAxisAlignment: MainAxisAlignment.end,
+                 Container(height: 300.0,  width: 30.0,  color: Colors.yellow,
+               child:Column(
+                 mainAxisAlignment: MainAxisAlignment.start,
                  children: [Icon(Icons.star, size: 30),
                             Icon(Icons.star, size: 30),
                             Icon(Icons.star, size: 30),
