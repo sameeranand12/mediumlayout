@@ -13,10 +13,11 @@ void main() {
        body: SafeArea(
          child: Container(
              child:Row(
+
                children: [
-                 Container(height: 300.0,  width: 30.0,  color: Colors.yellow,
-               child:Column(
-                 mainAxisAlignment: MainAxisAlignment.spaceEvenly ,
+                 Container(  color: Colors.yellow,
+               child:Column(mainAxisSize: MainAxisSize.min,
+                 //mainAxisAlignment: MainAxisAlignment.spaceEvenly ,
                  children: [Icon(Icons.star, size: 30),
                             Icon(Icons.star, size: 30),
                             Icon(Icons.star, size: 30),
